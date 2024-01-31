@@ -223,3 +223,6 @@ article .title{
 .swiper [class*='btn-'] svg path{
   fill: rgba(0,0,0,.54);
 }
+.sc-banner .navigation [class*='btn-'].swiper-button-disabled{
+  opacity: 0.3;
+}

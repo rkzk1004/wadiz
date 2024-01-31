@@ -76,14 +76,14 @@ $(document).click(function(e){
 // sc-banner
 const swiperBanner = new Swiper('.swiper-banner',{
   slidesPerView:1,
-  loop:true,
+  // loop:true,
   pagination: {
     el: ".swiper-banner .progress",
     type: "progressbar",
   },
   navigation: {
-    prevEl: ".swiper-banner .btn-next",
-    nextEl: ".swiper-banner .btn-prev",
+    prevEl: ".swiper-banner .btn-prev",
+    nextEl: ".swiper-banner .btn-next",
   },
 })
 

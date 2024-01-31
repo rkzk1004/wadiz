@@ -136,8 +136,6 @@ function list(rankTabName){
     let html = ``
     data.forEach((element,i) => {
       let num = ``
-      let freeDeily = ``
-      let grade = ``
       if(rankTabName === 'funding'){
         if(element.productType === 'REWARD'){
           num = `${element.rate}%`
@@ -146,8 +144,6 @@ function list(rankTabName){
         }
       }else{
         num = `${element.participants}명 인증`
-        // freeDeily = ``
-        // grade = ``
       }
       html+=`<li class="content-item">
         <a href="" class="module-item">
